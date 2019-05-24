@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DemoWebShop,Chrome 74.0.3729.169,,2019-05-23 16:53:43,2019-05-23 16:54:19,"36,810s",PASSED
+,,,,,,
+Test Cases/GestionCompte/EnregistrementCompte,Chrome 74.0.3729.169,,2019-05-23 16:53:43,2019-05-23 16:53:53,"10,110s",PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-05-23 16:53:43,2019-05-23 16:53:47,"3,374s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Chrome 74.0.3729.169,,2019-05-23 16:53:47,2019-05-23 16:53:48,"1,915s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Register""))",Chrome 74.0.3729.169,,2019-05-23 16:53:48,2019-05-23 16:53:49,"0,460s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Gender_Gender""))",Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,068s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_First name_FirstName""), ""dussaucy"")",Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,128s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Last name_LastName""), ""philippe"")",Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,106s",PASSED
+rand = new java.util.Random(),Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,004s",PASSED
+min = 10,Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,001s",PASSED
+max = 200,Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,000s",PASSED
+result = rand.nextInt() * max - min + min,Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,003s",PASSED
+"mail = """"",Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,000s",PASSED
+"mail = concatenate([""dussaucy.philippe"", result, ""@yopmail.com""], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,024s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Email_Email""), mail)",Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:49,"0,226s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Password_Password""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:53:49,2019-05-23 16:53:50,"0,192s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:53:50,2019-05-23 16:53:50,"0,098s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input__register-button""))",Chrome 74.0.3729.169,,2019-05-23 16:53:50,2019-05-23 16:53:51,"0,837s",PASSED
+"verifyElementPresent(findTestObject(""Page_Demo Web Shop. Register/div_Your registration completed""), 0)",Chrome 74.0.3729.169,,2019-05-23 16:53:51,2019-05-23 16:53:51,"0,028s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/div_Your registration completed""), ""Your registration completed"")",Chrome 74.0.3729.169,,2019-05-23 16:53:51,2019-05-23 16:53:51,"0,049s",PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-23 16:53:51,2019-05-23 16:53:51,"0,288s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/ClickContinue""))",Chrome 74.0.3729.169,,2019-05-23 16:53:51,2019-05-23 16:53:51,"0,520s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/a_Log out""))",Chrome 74.0.3729.169,,2019-05-23 16:53:51,2019-05-23 16:53:52,"0,763s",PASSED
+closeBrowser(),Chrome 74.0.3729.169,,2019-05-23 16:53:52,2019-05-23 16:53:53,"0,637s",PASSED
+,,,,,,
+Test Cases/GestionCompte/Email existing,Chrome 74.0.3729.169,,2019-05-23 16:53:53,2019-05-23 16:53:59,"6,256s",PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-05-23 16:53:53,2019-05-23 16:53:55,"2,353s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Chrome 74.0.3729.169,,2019-05-23 16:53:55,2019-05-23 16:53:57,"1,721s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Register""))",Chrome 74.0.3729.169,,2019-05-23 16:53:57,2019-05-23 16:53:58,"0,425s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Gender_Gender""))",Chrome 74.0.3729.169,,2019-05-23 16:53:58,2019-05-23 16:53:58,"0,075s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_First name_FirstName""), ""dussaucy"")",Chrome 74.0.3729.169,,2019-05-23 16:53:58,2019-05-23 16:53:58,"0,107s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Last name_LastName""), ""philippe"")",Chrome 74.0.3729.169,,2019-05-23 16:53:58,2019-05-23 16:53:58,"0,102s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Email_Email""), ""xxx123@gmail.com"")",Chrome 74.0.3729.169,,2019-05-23 16:53:58,2019-05-23 16:53:58,"0,130s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Password_Password""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:53:58,2019-05-23 16:53:58,"0,119s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:53:58,2019-05-23 16:53:58,"0,089s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input__register-button""))",Chrome 74.0.3729.169,,2019-05-23 16:53:58,2019-05-23 16:53:59,"0,584s",PASSED
+"verifyElementPresent(findTestObject(""Page_Demo Web Shop. Register/li_The specified email already exists""), 0)",Chrome 74.0.3729.169,,2019-05-23 16:53:59,2019-05-23 16:53:59,"0,019s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/li_The specified email already exists""), ""The specified email already exists"")",Chrome 74.0.3729.169,,2019-05-23 16:53:59,2019-05-23 16:53:59,"0,021s",PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-23 16:53:59,2019-05-23 16:53:59,"0,303s",PASSED
+,,,,,,
+Test Cases/GestionCompte/no first name,Chrome 74.0.3729.169,,2019-05-23 16:53:59,2019-05-23 16:54:06,"7,331s",PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-05-23 16:53:59,2019-05-23 16:54:02,"3,046s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Chrome 74.0.3729.169,,2019-05-23 16:54:02,2019-05-23 16:54:04,"1,984s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Register""))",Chrome 74.0.3729.169,,2019-05-23 16:54:04,2019-05-23 16:54:05,"0,442s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Gender_Gender""))",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,078s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Last name_LastName""), ""dussaucy"")",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,102s",PASSED
+rand = new java.util.Random(),Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,000s",PASSED
+min = 10,Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,000s",PASSED
+max = 200,Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,000s",PASSED
+result = rand.nextInt() * max - min + min,Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,001s",PASSED
+"mail = """"",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,000s",PASSED
+"mail = concatenate([""dussaucy.philippe"", result, ""@yopmail.com""], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,001s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Email_Email""), mail)",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,206s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Password_Password""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,113s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,089s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input__register-button""))",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,076s",PASSED
+"verifyElementPresent(findTestObject(""Page_Demo Web Shop. Register/span_First name is required.""), 0)",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:05,"0,021s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/span_First name is required.""), ""First name is required."")",Chrome 74.0.3729.169,,2019-05-23 16:54:05,2019-05-23 16:54:06,"0,032s",PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-23 16:54:06,2019-05-23 16:54:06,"0,300s",PASSED
+closeBrowser(),Chrome 74.0.3729.169,,2019-05-23 16:54:06,2019-05-23 16:54:06,"0,639s",PASSED
+,,,,,,
+Test Cases/GestionCompte/no mail,Chrome 74.0.3729.169,,2019-05-23 16:54:06,2019-05-23 16:54:13,"6,472s",PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-05-23 16:54:07,2019-05-23 16:54:09,"2,336s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Chrome 74.0.3729.169,,2019-05-23 16:54:09,2019-05-23 16:54:11,"1,967s",PASSED
+"click(findTestObject(""Page_Demo Web Shop/a_Register""))",Chrome 74.0.3729.169,,2019-05-23 16:54:11,2019-05-23 16:54:11,"0,418s",PASSED
+"click(findTestObject(""Page_Demo Web Shop. Register/input_Gender_Gender""))",Chrome 74.0.3729.169,,2019-05-23 16:54:11,2019-05-23 16:54:11,"0,060s",PASSED
+"setText(findTestObject(""Page_Demo Web Shop. Register/input_First name_FirstName""), ""phi123phi"")",Chrome 74.0.3729.169,,2019-05-23 16:54:11,2019-05-23 16:54:12,"0,111s",PASSED
+"setText(findTestObject(""Page_Demo Web Shop. Register/input_Last name_LastName""), ""phi123phi"")",Chrome 74.0.3729.169,,2019-05-23 16:54:12,2019-05-23 16:54:12,"0,107s",PASSED
+"setEncryptedText(findTestObject(""Page_Demo Web Shop. Register/input_Password_Password""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:54:12,2019-05-23 16:54:12,"0,090s",PASSED
+"setEncryptedText(findTestObject(""Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:54:12,2019-05-23 16:54:12,"0,089s",PASSED
+"click(findTestObject(""Page_Demo Web Shop. Register/input__register-button""))",Chrome 74.0.3729.169,,2019-05-23 16:54:12,2019-05-23 16:54:12,"0,073s",PASSED
+"verifyElementPresent(findTestObject(""Page_Demo Web Shop. Register/span_Email is required.""), 0)",Chrome 74.0.3729.169,,2019-05-23 16:54:12,2019-05-23 16:54:12,"0,021s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/span_Email is required.""), ""Email is required."")",Chrome 74.0.3729.169,,2019-05-23 16:54:12,2019-05-23 16:54:12,"0,032s",PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-23 16:54:12,2019-05-23 16:54:12,"0,334s",PASSED
+closeBrowser(),Chrome 74.0.3729.169,,2019-05-23 16:54:12,2019-05-23 16:54:13,"0,615s",PASSED
+,,,,,,
+Test Cases/GestionCompte/no name,Chrome 74.0.3729.169,,2019-05-23 16:54:13,2019-05-23 16:54:19,"6,386s",PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-05-23 16:54:13,2019-05-23 16:54:15,"2,212s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Chrome 74.0.3729.169,,2019-05-23 16:54:15,2019-05-23 16:54:17,"1,834s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Register""))",Chrome 74.0.3729.169,,2019-05-23 16:54:17,2019-05-23 16:54:18,"0,424s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Gender_Gender""))",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,061s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_First name_FirstName""), ""philippe"")",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,108s",PASSED
+rand = new java.util.Random(),Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,001s",PASSED
+min = 10,Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,000s",PASSED
+max = 200,Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,000s",PASSED
+result = rand.nextInt() * max - min + min,Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,000s",PASSED
+"mail = """"",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,000s",PASSED
+"mail = concatenate([""dussaucy.philippe"", result, ""@yopmail.com""], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,002s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Email_Email""), mail)",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,210s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Password_Password""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,112s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword""), ""aeHFOx8jV/A="")",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,089s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input__register-button""))",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,074s",PASSED
+"verifyElementPresent(findTestObject(""Page_Demo Web Shop. Register/span_Last name is required.""), 0)",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,021s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/span_Last name is required.""), ""Last name is required."")",Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:18,"0,031s",PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-23 16:54:18,2019-05-23 16:54:19,"0,318s",PASSED
+closeBrowser(),Chrome 74.0.3729.169,,2019-05-23 16:54:19,2019-05-23 16:54:19,"0,653s",PASSED
